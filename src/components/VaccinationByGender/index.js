@@ -15,6 +15,7 @@ const VaccinationByGender = props => {
           cx="50%"
           cy="50%"
           outerRadius="70%"
+             label={({name, count}) => `${name}: ${count}`}
         >
           <Cell name="Male" fill="#5a8dee" />
           <Cell name="Female" fill="#f54394" />
