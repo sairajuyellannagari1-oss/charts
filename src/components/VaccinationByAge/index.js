@@ -18,6 +18,7 @@ const VaccinationByAge = props => {
           innerRadius="40%"
           outerRadius="70%"
           dataKey="count"
+             label={({name, count}) => `${name}: ${count}`}
         >
           <Cell name="18-44" fill="#2cc6c6" />
 
